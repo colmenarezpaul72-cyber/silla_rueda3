@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "silla",
+  "version": "${version}",
+  "name": "Silla de ruedas de Dedsafio",
+  "description": "Silla de ruedas montable y conducible + tablet que habla con voz de Loquendo.",
+  "authors": [
+    "Dedsafio fan"
+  ],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/silla/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.silla.SillaMod"
+    ],
+    "client": [
+      "com.silla.SillaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
